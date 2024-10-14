@@ -1,0 +1,84 @@
+.Audio-Cart {
+    width: 310px;
+    font-weight: 900;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 20px 0px;
+}
+
+.Audio-Cart .Img-Audio-main {
+    height: 300px;
+    width: 100%;
+    background-color: rgba(128, 128, 128, 0.200);
+    border-radius: 10px;
+}
+
+.Audio-Cart .Img-Audio-main img {
+    height: 250px;
+    width: 250px;
+}
+
+.Add_to_cart {
+    text-align: center;
+}
+
+.Add_to_cart h5 {
+    border-bottom: 2px solid #ff4f33;
+    width: 36%;
+}
+
+.Audio_main_div {
+    border-top: 1px solid grey;
+}
+
+.Audio_main_div h2 {
+    margin-top: 25px;
+}
+
+.section-header__title {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.Title_main {
+    height: 50px;
+}
+
+.Title_main .h3 {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.justify-content-between .h3 {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    height: 35px;
+    width: 70%;
+}
+
+.Audio_button button {
+    margin: 10px 0px 20px;
+    height: 35px;
+    width: 100px;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+
+@media screen and (max-width:1400px) {
+    .Audio_main_div{
+        width: 100%;
+    }
+    .Best_Audio_Cart{
+        width: 60%;
+    }
+}
+
+@media screen and (max-width:1100px) {
+    .Best_Audio_Cart {
+        width: 100%;
+    }
+}

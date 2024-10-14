@@ -1,0 +1,61 @@
+.Select-Method {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+  padding: 20px;
+}
+
+.Select-payment-container {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  width: 100%;
+  max-width: 600px;
+  text-align: center;
+}
+
+.Select-payment-container h1 {
+  margin-bottom: 30px;
+  font-size: 26px;
+  color: #333;
+}
+
+.Select-payment-container .payment-methods {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.Select-payment-container .payment-method {
+  flex: 1 1 calc(50% - 40px);
+  max-width: calc(50% - 40px);
+  text-align: center;
+}
+
+.Select-payment-container .payment-method img {
+  width: 100%;
+  max-width: 200px;
+  height: 150px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  ;
+  transition: transform 0.3s ease;
+}
+
+.payment-method img:hover {
+  transform: scale(1.05);
+}
+
+@media screen and (max-width: 500px) {
+  .Select-payment-container .payment-method {
+    flex: 1 1 100%;
+    max-width: 100%;
+  }
+
+  .Select-payment-container .payment-method img {
+    max-width: 200px;
+  }
+}

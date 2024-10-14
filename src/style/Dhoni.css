@@ -1,0 +1,10 @@
+.dhoni img {
+    width: 1200px;
+
+}
+
+.dhoni {
+    display: flex;
+    justify-content: center;
+    
+}

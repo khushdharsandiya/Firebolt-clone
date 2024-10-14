@@ -1,0 +1,89 @@
+ .credit-card-form-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    background-color: #f7f7f7;
+}
+
+.credit-card-form {
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    width: 420px;
+    text-align: center;
+}
+
+.credit-card-form h2 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.credit-card-form img {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #666;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.form-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-column {
+    width: 48%;
+}
+
+.form-column input {
+    width: 100%;
+}
+
+.click-button {
+    background-color: #ff4f33;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.click-button:hover {
+    background-color: #ff4f33;
+}
+
+
+
+
+@media screen and (max-width: 600px) {
+    .credit-card-form {
+        max-width: 90%;
+    }
+
+    .form-row {
+        flex-direction: column;
+    }
+
+    .form-column {
+        flex: none;
+        width: 100%;
+    }
+}

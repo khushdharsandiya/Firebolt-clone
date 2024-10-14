@@ -1,0 +1,79 @@
+.Address_payment_Page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+
+.payment-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+}
+
+.payment-container h1,
+.payment-container h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+    text-align: center;
+}
+
+.payment-container h2 {
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group-group {
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-group-group .form-group {
+    flex: 1;
+    margin-right: 10px;
+}
+
+.form-group-group .form-group:last-child {
+    margin-right: 0;
+}
+
+.form-section label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+.form-section input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.taller-input {
+    height: 40px;
+}
+
+.Payment_Submit_Page {
+    width: 100%;
+    padding: 10px;
+    background-color: #ff4f33;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.Payment_Submit_Page button:hover {
+    background-color: #ff4f33;
+}

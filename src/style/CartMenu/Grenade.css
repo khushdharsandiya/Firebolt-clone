@@ -1,0 +1,13 @@
+.CartMenu_Main{
+    background-color: rgb(28, 28, 28);
+    height: 93.2vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.CartMenu_Main img{
+    height: 80vh;
+    width: 500px;
+    padding: 20px;
+}

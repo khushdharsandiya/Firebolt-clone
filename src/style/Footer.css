@@ -1,0 +1,25 @@
+footer {
+  background-color: #f9f6ee;
+  color: #000000;
+  padding: 20px 0;
+}
+
+.social-icons li {
+  list-style: none;
+  display: inline;
+}
+
+.social-icons li a {
+  color: #000000;
+  font-size: 22px;
+  padding-right: 7px;
+}
+
+.col-lg-3 h5{
+  margin-bottom: 15px;
+  cursor: pointer;
+}
+.col-lg-3 div{
+  color: rgb(85, 85, 85);
+  cursor: pointer;
+}

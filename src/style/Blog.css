@@ -1,0 +1,40 @@
+.presss_title p{
+    margin-top: -35px;
+    font-size: 20px;
+    padding: 10px 0;
+}
+
+.Blog_Main{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.Blog_Main .Blog_Img_Main{
+    width: 23%;
+    text-align: start;
+    padding: 10px 0;
+}
+
+.Blog_Img_Main img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.Blog_Img_Main h5{
+    font-weight: bold;
+    padding-top: 10px;
+    font-size: 18px;
+}
+
+@media screen and (max-width:1300px) {
+    .Blog_Main .Blog_Img_Main{
+        width: 35%;
+    }
+}
+
+@media screen and (max-width:700px) {
+    .Blog_Main .Blog_Img_Main{
+        width: 70%;
+    }
+}
